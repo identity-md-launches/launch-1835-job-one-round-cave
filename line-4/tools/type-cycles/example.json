@@ -1,0 +1,10 @@
+{
+  "primaryType": "Branch",
+  "types": {
+    "EIP712Domain": [],
+    "Branch": [
+      {"name": "label", "type": "string"},
+      {"name": "children", "type": "Branch[]"}
+    ]
+  }
+}

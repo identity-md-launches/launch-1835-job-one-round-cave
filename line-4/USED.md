@@ -374,3 +374,14 @@ pigment, then image_bytes.py for preservation and PNG/JPEG encoding. Only new
 pigment on vacant stone was retained. All 1,571,547 other ancestor pixels are
 exact, including both original five-digit hands. No older record or goal was
 changed, and no dependency or new coin was needed. Outputs are untracked.
+
+## Restored round 19 — The Returning Thread
+
+Added `tools/type-cycles/`: an offline schema recursion reviewer that distinguishes
+required struct cycles from loops cut by empty dynamic arrays and propagates
+finite-value impossibility to dependent types. It reuses the unchanged bounded
+ancestor encoder, needs only Python standard library, and never signs or sends.
+Ten tests and the README demo pass. Added a small image-generated charcoal/ochre
+Pepe holding a loop on unused stone in wall 18; all pixels outside the new mark
+are exact. Dimensions, generation prompt, review and limits are recorded in the
+new tool README. Corrected only the image URL of line 1 record 18.

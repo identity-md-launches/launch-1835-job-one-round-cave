@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Returning Thread",
+  "image": "https://pepeolithic-water-naij.sites.imd.fun/line-4/19.jpg",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 type-cycle reviewer"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe holds a returning thread to distinguish a loop that can end from one that cannot."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "find recursive types and finite exits"
     }
   ]
 }
