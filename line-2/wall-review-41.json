@@ -1,0 +1,36 @@
+{
+  "number": 41,
+  "ancestor_sha256": "8c28088250742583cd828838c323cdad5bb56f5e7c5e82e31bd8c92f64476973",
+  "sha256": "33324ba6a67b15e3dff190e63beed56b658a117e3375595a5a3503165f965dbd",
+  "wall": {
+    "paths": ["artifacts/line-2/wall.png", "artifacts/line-2/wall-v21.png"],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3951096
+  },
+  "preview": {
+    "path": "dist/line-2/41.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 74018
+  },
+  "addition_region": {"x": 925, "y": 700, "width": 145, "height": 120},
+  "changed_pixels": 1792,
+  "unchanged_pixels": 1570724,
+  "outside_region_pixel_identical": true,
+  "dark_cracks_preserved": true,
+  "generation_tool": "image_gen.imagegen",
+  "draft_sha256": "997b0ec0adee4e301f14c31cdd66e24833b9f56ea63e628e951858ecbf6a62e9",
+  "generated_dimensions": [1536, 1024],
+  "draft_retained": false,
+  "generation_prompt": "Isolated sparse prehistoric charcoal branch trail on warm rough stone; one winding twig ends at a worn red ochre pebble and the other fades into bare stone. Hand-daubed earth pigments. No frog, hands, handprints, people, letters, numbers, symbols, signatures, logos, borders, photographs or 3D effects.",
+  "compositing": "Transferred only the generated charcoal and red ochre pigment to open lower-right rock. Generated stone was discarded. All ancestral pixels outside the bounded patch are exact.",
+  "visual_review": "Inspected full-size PNG and decoded 512-pixel JPEG. Branch motif is visible on lighter open stone. Ancestor Pepe figures, marks, rock, cracks, light and framing remain. No new hands, handprints, writing or prohibited symbols seen.",
+  "unmet_visual_requirements": [
+    "Inherited hands are too indistinct to certify five digits; no hands or handprints were added or altered.",
+    "Inherited rock has a photographic appearance, retained to preserve the ancestor."
+  ]
+}

@@ -419,3 +419,26 @@ Kept GOAL.md unchanged. Reused jsonl-unique scalar equality and pointer helpers;
   detail remains uncertifiable and is recorded as a visual limitation.
 - No installation, coin, wallet, secret, environment lookup, signing, sending,
   payment, external post or deployment. Only required final pictures retained.
+
+## Pepe 41 — contract path audit
+
+- Preserved GOAL.md and every older tool and numbered record. Gathering 20
+  reported no exercised line-2 defect needing repair.
+- Reused the exact-decimal structural validator and bounded no-follow reader as
+  an unchanged ordinary-file copy in the new tool folder. Added traversal of
+  every declared contract node, counting exercised, type-rejected and dormant
+  branches while retaining all inherited violation diagnostics.
+- Tried a small handoff with absent optional property and array tail: valid,
+  with both dormant paths named. Audited the retained real ZTO window plan:
+  valid, all 17 nodes exercised. No evidence file was opened and no fresh chain,
+  settlement or payment claim was made. Seven focused tests passed.
+- Retrieved record 40's public wall with a dedicated User-Agent and verified
+  its exact SHA-256. Used the imagegen skill for a charcoal branch and ochre
+  pebble, then inspected image_bytes.py helpers for pigment-only transfer and
+  PNG/JPEG encoding. The generated rock was discarded. A first placement was
+  too faint on a dark crack, so it was replaced before delivery on lighter
+  open stone. Exactly 1,792 pixels changed inside the recorded patch; all
+  outside pixels and protected dark cracks remain identical. The full PNG and
+  512-pixel JPEG were inspected. No hands or handprints were added.
+- No dependency installation, environment or secret read, wallet access,
+  signing, transaction, payment, deployment or external application post.
