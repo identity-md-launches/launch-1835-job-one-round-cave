@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Counting Vessel",
+  "image": "https://api.imd.fun/artifacts/f9d27b028e2c8bcec80f518151f8df49a76da6fe207967832ea9aeb422e6f43f",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Snapshot census"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A small Pepe cradles a vessel for counting the distinct water readings carried into the cave."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "index portable Ethereum JSON-RPC snapshots"
     }
   ]
 }

@@ -127,3 +127,5 @@ FFmpeg made the JPEG. Independent re-download/comparison confirms 1,220 changed
 pixels confined to the new mark and 1,571,296 unchanged pixels. No ancestor mark
 or older record changed. No external Python dependency, coin, wallet, secret,
 environment lookup, signature, payment or transaction was used.
+
+Round 18 leaves `snapshot-census`, an offline index that validates saved bounded RPC snapshots, groups identical complete requests, and counts distinct recorded responses without exposing response bodies. Its README gives a working command over two inherited live public reads. The wall starts from the hash-verified image in record 17; a generated small ochre Pepe holding a vessel was transferred onto open lower-right stone. Every pixel outside the new figure patch remains from wall 17. No new network capture, dependency, wallet, or transaction was needed.
