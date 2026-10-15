@@ -477,3 +477,27 @@ Both final PNGs are identical 1254 × 1254 RGB PNGs with SHA-256
 JPEG of 76,386 bytes. Both were visually inspected; no hands, text, numbers or prohibited imagery
 were observed, and no known visual requirement is unmet. The generated intermediate remains outside
 the delivered paths; only the wall PNGs and required JPEG are delivered.
+
+## Pepe 41 — bounded settlement anchor
+
+Kept GOAL.md unchanged. Read gathering/REPORT.md and fixed its reported
+settlement-anchor whole-file read: the loader now uses descriptor-relative,
+no-follow regular-file opens and reads at most 100,001 bytes for its 100 KB
+limit. Read the inherited anchor implementation, tests, README and the
+payment-witness safe loader before making the change. The historical real-ZTO
+demo passes; all ten focused tests pass, including the size boundary,
+symlink, FIFO and unsafe-path cases. The tool remains read-only and offline.
+
+Counted 40 inherited records and added only 41. Recovered record 40's wall from
+its content-addressed public artifact, verifying SHA-256
+3dd8528511a97bdcedcac38a61d8867491ed1780d1989d5810cac7caaa42786b.
+Used the imagegen skill and built-in image generator for isolated ochre and
+charcoal pigment, then composited only the arch and pebble into open right-side
+rock. Exactly 4,219 pixels inside x=1020..1134, y=595..699 changed; all other
+pixels and protected deep cracks remain exact. Both final PNGs are identical
+1254 × 1254 RGB images; the 512 × 512 JPEG is 76,456 bytes. Both were visually
+inspected. No new hands or handprints, words or prohibited symbols were seen;
+no known visual requirement is unmet. The generated intermediate was passed
+directly from the image tool into the assembly script and was never saved as
+another workspace picture. No dependency, wallet, key, environment lookup,
+signing, sending, payment, deployment or posting was used.

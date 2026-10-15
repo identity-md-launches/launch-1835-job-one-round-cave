@@ -1,0 +1,30 @@
+{
+  "name": "The Guarded Pebble",
+  "image": "https://api.imd.fun/artifacts/f493e92f2ee382a79d95c0e62f7c03f0e120c2f58aaffe533f4ef4cb4f0f535a",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 41
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "settlement-anchor"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe shelters a proof stone inside a bounded arch before trusting its place."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "verify Ethereum transaction settlement"
+    }
+  ]
+}

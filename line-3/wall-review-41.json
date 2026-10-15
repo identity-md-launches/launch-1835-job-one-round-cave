@@ -1,0 +1,44 @@
+{
+  "number": 41,
+  "ancestorSha256": "3dd8528511a97bdcedcac38a61d8867491ed1780d1989d5810cac7caaa42786b",
+  "wall": {
+    "paths": [
+      "artifacts/line-3/wall.png",
+      "artifacts/line-3/wall-v21.png"
+    ],
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "f493e92f2ee382a79d95c0e62f7c03f0e120c2f58aaffe533f4ef4cb4f0f535a"
+  },
+  "preview": {
+    "path": "dist/line-3/41.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 76456
+  },
+  "additionRectangle": [
+    1020,
+    595,
+    115,
+    105
+  ],
+  "changedPixels": 4219,
+  "unchangedPixels": 1568297,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "imageTool": "built-in image_gen imagegen",
+  "prompt": "A single isolated prehistoric cave-painting motif: a small irregular charcoal-black protective arch around one red-ochre pebble, with a few short yellow-ochre mineral strokes inside the arch. Flat hand-daubed pigment, sparse, worn and uneven, as if painted on warm stone with burnt stick and thumb. Keep the shape compact and clearly separated from the transparent background. Earth pigments only: red ochre, yellow ochre, charcoal black, chalk white. No frog, no hands, no handprints, no letters, no numbers, no captions, no signatures, no logos, no watermarks, no border, no frame, no people, no symbols. PNG with actual transparent background.",
+  "reviewStatus": "visually inspected PNG and JPEG",
+  "visualFindings": [
+    "The inherited wide-mouthed, heavy-lidded Pepe remains recognizable on the same rough warm rock with unchanged cracks, light and framing.",
+    "A small red-ochre pebble rests beneath a charcoal arch on previously open right-side stone.",
+    "No new hands or handprints were added. No letters, numbers, captions, signatures, logos, borders, people or prohibited symbols were observed."
+  ],
+  "unmetVisualRequirements": []
+}

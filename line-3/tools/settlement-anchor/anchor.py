@@ -3,8 +3,10 @@
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
+import stat
 import sys
 
 MAX_BYTES = 100_000
@@ -123,11 +125,39 @@ def load(path):
     if (not isinstance(path, str) or not path or path.startswith("/") or "\\" in path
             or any(not part or part.startswith(".") for part in path.split("/"))):
         raise AnchorError("visible workspace-relative bundle path required")
-    root = Path.cwd().resolve()
-    candidate = (root / path).resolve()
-    if root not in candidate.parents or not candidate.is_file():
-        raise AnchorError("bundle must be a regular file inside the workspace")
-    return candidate.read_bytes()
+    if (not hasattr(os, "O_NOFOLLOW") or not hasattr(os, "O_DIRECTORY") or
+            os.open not in os.supports_dir_fd):
+        raise AnchorError("safe bundle file opens unsupported on this platform")
+    directory = descriptor = None
+    try:
+        directory = os.open(".", os.O_RDONLY | os.O_DIRECTORY)
+        parts = path.split("/")
+        for part in parts[:-1]:
+            next_directory = os.open(part, os.O_RDONLY | os.O_DIRECTORY | os.O_NOFOLLOW,
+                                     dir_fd=directory)
+            os.close(directory)
+            directory = next_directory
+        descriptor = os.open(parts[-1], os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK,
+                             dir_fd=directory)
+        if not stat.S_ISREG(os.fstat(descriptor).st_mode):
+            raise AnchorError("bundle must be a regular file inside the workspace")
+        chunks, size = [], 0
+        while size <= MAX_BYTES:
+            chunk = os.read(descriptor, min(8192, MAX_BYTES + 1 - size))
+            if not chunk:
+                break
+            chunks.append(chunk)
+            size += len(chunk)
+        if size > MAX_BYTES:
+            raise AnchorError("bundle exceeds 100 KB")
+        return b"".join(chunks)
+    except OSError:
+        raise AnchorError("bundle could not be opened safely") from None
+    finally:
+        if descriptor is not None:
+            os.close(descriptor)
+        if directory is not None:
+            os.close(directory)
 
 
 def main(argv=None):
