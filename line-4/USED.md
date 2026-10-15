@@ -352,3 +352,25 @@ Final PNG and decoded JPEG were visually reviewed, including both unchanged
 five-digit hands. Formats, prompt summary, hashes and limitations are in
 wall-review-38.json. No new dependency or coin was needed; no signing, sending,
 payment, posting or deployment occurred.
+
+## Round 40 — address stone
+
+Read Gathering 20 and repaired its two reported pair-seeds helper defects first:
+Paeth filter support and actual pixel counting. Retained its pigment routine and
+added four regression tests using in-memory PNGs. No test picture was saved.
+
+Used unchanged ordinary-file copies of the typed-digest encoder and the
+domain-check historical real-ZTO fixture for the new address reviewer; exact
+hashes are in tools/address-review/provenance.json. The expected address map is
+explicitly derived from that demo, not claimed to be independent authorization.
+Used the actual IMD address only as a deliberate substitution in a rejection
+test. Looked up the published ERC-55 source and used its eight checksum vectors.
+All 15 reviewer tests, four helper tests and 28 ancestor checks pass. A detached
+reviewer also passes its tests and demo without any sibling folder or network.
+
+Recovered record 39's public content-addressed wall and verified its SHA-256.
+Used the imagegen skill and installed image generation tool for the ring/pebble
+pigment, then image_bytes.py for preservation and PNG/JPEG encoding. Only new
+pigment on vacant stone was retained. All 1,571,547 other ancestor pixels are
+exact, including both original five-digit hands. No older record or goal was
+changed, and no dependency or new coin was needed. Outputs are untracked.

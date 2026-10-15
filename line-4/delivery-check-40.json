@@ -1,0 +1,28 @@
+{
+  "ancestorPreservation": {
+    "changedPixels": 969,
+    "unchangedPixels": 1571547,
+    "allChangesInsideDeclaredBounds": true
+  },
+  "images": {
+    "PNG": {
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGB",
+      "sha256": "d4a00759b345558f158322879a5856b47cedd3466735c78e6f2234092d908feb"
+    },
+    "JPEG": {
+      "width": 512,
+      "height": 512,
+      "bytes": 78668
+    },
+    "versionedBytesMatch": true
+  },
+  "goalUnchangedByteForByte": true,
+  "recordShapeValid": true,
+  "olderRecordsUnchanged": true,
+  "allChangesInAssignedScope": true,
+  "noFileOver100KBOutsideArtifacts": true,
+  "outputImagesUntracked": true,
+  "vendoredSourcesMatch": true
+}

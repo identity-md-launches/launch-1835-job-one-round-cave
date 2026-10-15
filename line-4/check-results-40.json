@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/address-review",
+        "-v"
+      ],
+      "cwd": "repository root",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "test_address_only_policy_does_not_pin_amount (test_address_review.AddressReviewTests.test_address_only_policy_does_not_pin_amount) ... ok\ntest_case_equivalence_policy (test_address_review.AddressReviewTests.test_case_equivalence_policy) ... ok\ntest_cli_statuses_and_atomic_output (test_address_review.AddressReviewTests.test_cli_statuses_and_atomic_output) ... ok\ntest_expectations_require_exact_path_set (test_address_review.AddressReviewTests.test_expectations_require_exact_path_set) ... ok\ntest_invalid_case_does_not_change_digest (test_address_review.AddressReviewTests.test_invalid_case_does_not_change_digest) ... ok\ntest_invalid_policies (test_address_review.AddressReviewTests.test_invalid_policies) ... ok\ntest_invalid_typed_data_and_bounds (test_address_review.AddressReviewTests.test_invalid_typed_data_and_bounds) ... ok\ntest_nested_arrays_domain_and_recursive_types (test_address_review.AddressReviewTests.test_nested_arrays_domain_and_recursive_types) ... ok\ntest_no_addresses_unused_type (test_address_review.AddressReviewTests.test_no_addresses_unused_type) ... ok\ntest_no_mutation_and_no_pins (test_address_review.AddressReviewTests.test_no_mutation_and_no_pins) ... ok\ntest_null_policy_cli_rejected (test_address_review.AddressReviewTests.test_null_policy_cli_rejected) ... ok\ntest_published_checksum_vectors (test_address_review.AddressReviewTests.test_published_checksum_vectors) ... ok\ntest_uniform_case_unchecksummed (test_address_review.AddressReviewTests.test_uniform_case_unchecksummed) ... ok\ntest_wrong_token_and_digest (test_address_review.AddressReviewTests.test_wrong_token_and_digest) ... ok\ntest_zto_pin_and_words (test_address_review.AddressReviewTests.test_zto_pin_and_words) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.100s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "line-4/tools/pair-seeds",
+        "-v"
+      ],
+      "cwd": "repository root",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "test_all_filters_both_pixel_layouts (test_pair_seeds.PNGTests.test_all_filters_both_pixel_layouts) ... ok\ntest_corrupt_truncated_and_trailing_data (test_pair_seeds.PNGTests.test_corrupt_truncated_and_trailing_data) ... ok\ntest_main_diagnostic_matches_independent_count (test_pair_seeds.PNGTests.test_main_diagnostic_matches_independent_count) ... ok\ntest_pixel_count_not_rows_or_channels (test_pair_seeds.PNGTests.test_pixel_count_not_rows_or_channels) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.072s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "test/scratch/line4-round40/typed-digest",
+        "-v"
+      ],
+      "cwd": "repository root",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "test_bad_unicode_and_bad_json (test_bounded_input.BoundedInputTests.test_bad_unicode_and_bad_json) ... ok\ntest_brackets_and_escaped_quotes_in_strings_do_not_count (test_bounded_input.BoundedInputTests.test_brackets_and_escaped_quotes_in_strings_do_not_count) ... ok\ntest_byte_limit_at_boundary (test_bounded_input.BoundedInputTests.test_byte_limit_at_boundary) ... ok\ntest_cli_match_and_mismatch (test_bounded_input.BoundedInputTests.test_cli_match_and_mismatch) ... ok\ntest_cli_rejection_no_traceback_or_success_output (test_bounded_input.BoundedInputTests.test_cli_rejection_no_traceback_or_success_output) ... ok\ntest_cyclic_api_values_and_nonstring_keys_rejected (test_bounded_input.BoundedInputTests.test_cyclic_api_values_and_nonstring_keys_rejected) ... ok\ntest_depth_scanned_before_decoder (test_bounded_input.BoundedInputTests.test_depth_scanned_before_decoder) ... ok\ntest_duplicate_keys_at_any_depth (test_bounded_input.BoundedInputTests.test_duplicate_keys_at_any_depth) ... ok\ntest_example_unchanged_and_absolute_path_supported (test_bounded_input.BoundedInputTests.test_example_unchanged_and_absolute_path_supported) ... ok\ntest_fifo_refused_without_blocking (test_bounded_input.BoundedInputTests.test_fifo_refused_without_blocking) ... ok\ntest_file_and_directory_symlinks_rejected (test_bounded_input.BoundedInputTests.test_file_and_directory_symlinks_rejected) ... ok\ntest_hidden_paths_rejected (test_bounded_input.BoundedInputTests.test_hidden_paths_rejected) ... ok\ntest_node_and_api_text_bounds (test_bounded_input.BoundedInputTests.test_node_and_api_text_bounds) ... ok\ntest_nonfinite_float_and_exponent_rejected (test_bounded_input.BoundedInputTests.test_nonfinite_float_and_exponent_rejected) ... ok\ntest_outside_and_parent_paths_rejected_without_opening (test_bounded_input.BoundedInputTests.test_outside_and_parent_paths_rejected_without_opening) ... ok\ntest_oversize_file_rejected_before_read (test_bounded_input.BoundedInputTests.test_oversize_file_rejected_before_read) ... ok\ntest_bytes_address_boolean_encoding (test_bounded_input.EncodingBoundaryTests.test_bytes_address_boolean_encoding) ... ok\ntest_empty_dynamic_and_nested_fixed_arrays (test_bounded_input.EncodingBoundaryTests.test_empty_dynamic_and_nested_fixed_arrays) ... ok\ntest_encoder_owns_schema_snapshot_when_caching (test_bounded_input.EncodingBoundaryTests.test_encoder_owns_schema_snapshot_when_caching) ... ok\ntest_invalid_types_and_deep_array_types_rejected (test_bounded_input.EncodingBoundaryTests.test_invalid_types_and_deep_array_types_rejected) ... ok\ntest_recursive_type_with_finite_values (test_bounded_input.EncodingBoundaryTests.test_recursive_type_with_finite_values) ... ok\ntest_signed_and_unsigned_limits_and_sign_extension (test_bounded_input.EncodingBoundaryTests.test_signed_and_unsigned_limits_and_sign_extension) ... ok\ntest_type_field_order_changes_digest (test_bounded_input.EncodingBoundaryTests.test_type_field_order_changes_digest) ... ok\ntest_types_and_fields_bounded (test_bounded_input.EncodingBoundaryTests.test_types_and_fields_bounded) ... ok\ntest_dependency_order_and_arrays (test_typed_digest.DigestTests.test_dependency_order_and_arrays) ... ok\ntest_ether_mail_vector (test_typed_digest.DigestTests.test_ether_mail_vector) ... ok\ntest_keccak_vectors (test_typed_digest.DigestTests.test_keccak_vectors) ... ok\ntest_rejects_ambiguous_or_invalid_values (test_typed_digest.DigestTests.test_rejects_ambiguous_or_invalid_values) ... ok\n\n----------------------------------------------------------------------\nRan 28 tests in 0.227s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "address-review",
+        "-v"
+      ],
+      "cwd": "test/scratch/line4-round40",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "test_address_only_policy_does_not_pin_amount (test_address_review.AddressReviewTests.test_address_only_policy_does_not_pin_amount) ... ok\ntest_case_equivalence_policy (test_address_review.AddressReviewTests.test_case_equivalence_policy) ... ok\ntest_cli_statuses_and_atomic_output (test_address_review.AddressReviewTests.test_cli_statuses_and_atomic_output) ... ok\ntest_expectations_require_exact_path_set (test_address_review.AddressReviewTests.test_expectations_require_exact_path_set) ... ok\ntest_invalid_case_does_not_change_digest (test_address_review.AddressReviewTests.test_invalid_case_does_not_change_digest) ... ok\ntest_invalid_policies (test_address_review.AddressReviewTests.test_invalid_policies) ... ok\ntest_invalid_typed_data_and_bounds (test_address_review.AddressReviewTests.test_invalid_typed_data_and_bounds) ... ok\ntest_nested_arrays_domain_and_recursive_types (test_address_review.AddressReviewTests.test_nested_arrays_domain_and_recursive_types) ... ok\ntest_no_addresses_unused_type (test_address_review.AddressReviewTests.test_no_addresses_unused_type) ... ok\ntest_no_mutation_and_no_pins (test_address_review.AddressReviewTests.test_no_mutation_and_no_pins) ... ok\ntest_null_policy_cli_rejected (test_address_review.AddressReviewTests.test_null_policy_cli_rejected) ... ok\ntest_published_checksum_vectors (test_address_review.AddressReviewTests.test_published_checksum_vectors) ... ok\ntest_uniform_case_unchecksummed (test_address_review.AddressReviewTests.test_uniform_case_unchecksummed) ... ok\ntest_wrong_token_and_digest (test_address_review.AddressReviewTests.test_wrong_token_and_digest) ... ok\ntest_zto_pin_and_words (test_address_review.AddressReviewTests.test_zto_pin_and_words) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.092s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "address-review/address_review.py",
+        "address-review/zto-payment.json",
+        "--expect-addresses",
+        "address-review/zto-expect.json",
+        "--digest-expect",
+        "0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774"
+      ],
+      "cwd": "test/scratch/line4-round40",
+      "exitCode": 0,
+      "stdout": "{\n  \"reviewVersion\": 1,\n  \"primaryType\": \"PaymentEvidence\",\n  \"typeEncoding\": \"PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)\",\n  \"domainSeparator\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n  \"messageHash\": \"0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599\",\n  \"digest\": \"0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774\",\n  \"addresses\": [\n    {\n      \"path\": \"/message/token\",\n      \"input\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n      \"address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n      \"checksumAddress\": \"0xd782Bdea4EF02a0Bd391eb9089470c8080f0A68e\",\n      \"spelling\": \"lower\",\n      \"mixedCaseChecksumValid\": null,\n      \"isZero\": false,\n      \"word\": \"0x000000000000000000000000d782bdea4ef02a0bd391eb9089470c8080f0a68e\"\n    },\n    {\n      \"path\": \"/message/recipient\",\n      \"input\": \"0x2d30e495a15f2657d57c3e2caa08b06415c26cbf\",\n      \"address\": \"0x2d30e495a15f2657d57c3e2caa08b06415c26cbf\",\n      \"checksumAddress\": \"0x2D30e495a15F2657d57C3E2CaA08b06415c26cbF\",\n      \"spelling\": \"lower\",\n      \"mixedCaseChecksumValid\": null,\n      \"isZero\": false,\n      \"word\": \"0x0000000000000000000000002d30e495a15f2657d57c3e2caa08b06415c26cbf\"\n    }\n  ],\n  \"invalidMixedCasePaths\": [],\n  \"zeroAddressPaths\": [],\n  \"addressExpectationProvided\": true,\n  \"digestExpectationProvided\": true,\n  \"missingAddresses\": [],\n  \"unexpectedAddresses\": [],\n  \"changedAddresses\": [],\n  \"addressesMatchExpected\": true,\n  \"digestMatchesExpected\": true,\n  \"checksPass\": true,\n  \"interpretation\": \"Address bytes determine the digest regardless of letter case. Mixed-case spellings are checked against chain-independent EIP-55; all-lower and all-upper spellings are unchecksummed. Zero addresses are reported, not rejected. Address expectations pin every reachable address path, not non-address fields, schema or signer identity. No result proves ownership, contract support, payment, consent or replay safety.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "line-4/tools/address-review/address_review.py",
+        "line-4/tools/address-review/zto-payment.json",
+        "--expect-addresses",
+        "line-4/tools/address-review/zto-expect.json",
+        "--digest-expect",
+        "0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774"
+      ],
+      "cwd": "repository root",
+      "exitCode": 0,
+      "stdout": "{\n  \"reviewVersion\": 1,\n  \"primaryType\": \"PaymentEvidence\",\n  \"typeEncoding\": \"PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)\",\n  \"domainSeparator\": \"0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d\",\n  \"messageHash\": \"0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599\",\n  \"digest\": \"0xf33e2506e5c103f98dbfe3feb6d4b87d55f1fad4e423dbaa8462465ff4ab9774\",\n  \"addresses\": [\n    {\n      \"path\": \"/message/token\",\n      \"input\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n      \"address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n      \"checksumAddress\": \"0xd782Bdea4EF02a0Bd391eb9089470c8080f0A68e\",\n      \"spelling\": \"lower\",\n      \"mixedCaseChecksumValid\": null,\n      \"isZero\": false,\n      \"word\": \"0x000000000000000000000000d782bdea4ef02a0bd391eb9089470c8080f0a68e\"\n    },\n    {\n      \"path\": \"/message/recipient\",\n      \"input\": \"0x2d30e495a15f2657d57c3e2caa08b06415c26cbf\",\n      \"address\": \"0x2d30e495a15f2657d57c3e2caa08b06415c26cbf\",\n      \"checksumAddress\": \"0x2D30e495a15F2657d57C3E2CaA08b06415c26cbF\",\n      \"spelling\": \"lower\",\n      \"mixedCaseChecksumValid\": null,\n      \"isZero\": false,\n      \"word\": \"0x0000000000000000000000002d30e495a15f2657d57c3e2caa08b06415c26cbf\"\n    }\n  ],\n  \"invalidMixedCasePaths\": [],\n  \"zeroAddressPaths\": [],\n  \"addressExpectationProvided\": true,\n  \"digestExpectationProvided\": true,\n  \"missingAddresses\": [],\n  \"unexpectedAddresses\": [],\n  \"changedAddresses\": [],\n  \"addressesMatchExpected\": true,\n  \"digestMatchesExpected\": true,\n  \"checksPass\": true,\n  \"interpretation\": \"Address bytes determine the digest regardless of letter case. Mixed-case spellings are checked against chain-independent EIP-55; all-lower and all-upper spellings are unchecksummed. Zero addresses are reported, not rejected. Address expectations pin every reachable address path, not non-address fields, schema or signer identity. No result proves ownership, contract support, payment, consent or replay safety.\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "allPassed": true,
+  "uniqueTestCases": {
+    "addressReviewer": 15,
+    "pairSeedsRegression": 4,
+    "inheritedEncoder": 28
+  },
+  "detachedAddressReviewerTestCases": 15
+}

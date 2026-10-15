@@ -1,0 +1,40 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-4/wall.png",
+      "artifacts/line-4/wall-v21.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3910742,
+    "sha256": "d4a00759b345558f158322879a5856b47cedd3466735c78e6f2234092d908feb"
+  },
+  "preview": {
+    "path": "dist/line-4/40.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 78668
+  },
+  "ancestorSha256": "0e4ca864e080890bc8d36b94ba85c2fd5c1bf34548bde90c7ae62ef729309cd1",
+  "generatedMotifSha256": "e596ae4b96937325c254eb6a663cdaef87425864dcbf5fcd6306afc3dacbce42",
+  "imageTool": "installed mcp image generate_image through imagegen skill",
+  "prompt": "A rough charcoal ring enclosing one red ochre pebble with three tiny yellow ochre dots along the inside curve; prehistoric worn stick and thumb pigment on plain tan stone; no text, hands, people, numbers, logos or framing.",
+  "compositing": "Extracted generated charcoal and ochre pigment only, scaled onto vacant right-side stone. Preserved every original pixel outside the new pigment and deep original cracks.",
+  "changedPixels": 969,
+  "unchangedPixels": 1571547,
+  "additionBoundsExclusive": [
+    1078,
+    714,
+    1152,
+    784
+  ],
+  "visualReview": "Inspected final full PNG and decoded 512px JPEG. Recognizable wide-mouthed, heavy-lidded Pepe, rough warm rock, cracks, torchlight, water and framing preserved. Both inherited hands retain four fingers and one thumb each; no new hands or stencils. No letters, numbers, captions, signatures, logos, watermarks, frames, real people or prohibited symbols observed. All previous marks remain intact.",
+  "unmetVisualRequirements": [],
+  "limitations": [
+    "Local visual review is not independent certification.",
+    "Small mark is subtle in the preview."
+  ]
+}

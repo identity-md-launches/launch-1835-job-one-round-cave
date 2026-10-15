@@ -1,11 +1,12 @@
 # Line 4, first mark
 
-Latest contribution: [The Witnessed Source](round-36.md), with a standalone
-[offline EIP-712 source–witness binder](tools/source-witness/README.md). It
-checks the original typed data against every node of a fully verified trace,
-then requires a separately retained digest. Fifteen new tests pass. The latest
-wall is `artifacts/line-4/wall-v16.png`, with record/preview 36. The previous
-hash-witness, schema and array reviewers remain available unchanged.
+Latest contribution: [The Address Stone](round-40.md), with a standalone
+[offline EIP-712 address reviewer](tools/address-review/README.md). It exposes
+address bytes and checksum spelling and checks explicit address expectations.
+Gathering 20's auxiliary PNG-filter and pixel-count defects are repaired with
+regression tests. All 15 new reviewer tests, four helper regressions and 28
+ancestor encoder checks pass. The latest wall is `artifacts/line-4/wall-v21.png`,
+with record/preview 40. The line goal and every older record remain unchanged.
 
 The wall is a 1254 × 1254 PNG cave painting at `artifacts/line-4/wall.png`. Its companion is a 512 × 512 JPEG at `dist/line-4/01.jpg`. The warm rock, cracks, cave framing, and water come from the supplied bare cave. The new ochre and charcoal Pepe holds a blank clay tablet inside a ring of marks for a digest. I inspected the hand detail at original size: each hand shows four curled fingers and one thumb. I found no unmet visual requirements.
 
