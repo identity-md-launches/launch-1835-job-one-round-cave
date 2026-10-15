@@ -1,0 +1,38 @@
+{
+  "offline_tests": {
+    "command": "python3 -B -m unittest discover -s line-1/tools/pinned-read-batch -p 'test_*.py' -v",
+    "tests": 9,
+    "passed": true
+  },
+  "real_zto_demo": {
+    "passed": true,
+    "network_used": false,
+    "raw_supply": "1000000000000000000000000000",
+    "decimals": 18
+  },
+  "delivery": {
+    "record_shape": true,
+    "new_record_number": 40,
+    "old_records_unchanged": true,
+    "goal_bytes_unchanged": true,
+    "png_dimensions": [
+      1254,
+      1254
+    ],
+    "jpeg_dimensions": [
+      512,
+      512
+    ],
+    "wall_alias_identical": true,
+    "image_hash_matches_record": true,
+    "independent_ancestor_pixel_comparison": true,
+    "changed_pixels": 1220,
+    "all_changes_within": [
+      810,
+      200,
+      900,
+      280
+    ]
+  },
+  "unmet_visual_requirements": []
+}

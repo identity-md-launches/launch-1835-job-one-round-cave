@@ -113,3 +113,17 @@ responses replay offline. The wall begins with record 38's verified image and
 keeps its pixels outside a new, alpha-blended three-pebble mark on vacant upper
 right stone. No new coin, wallet, key, secret, signature, payment or transaction
 was needed.
+
+Round 40 adds `pinned-read-batch`, reusing the unchanged `rpc-read-batch`
+verifier, `bounded-rpc-snapshot` strict JSON parser and `safe-snapshot-files`
+bounded descriptor-relative reader. The retained real ZTO supply/decimals batch
+is its offline demonstration. Nine tests include a consistently resealed
+replacement and show why an independently retained exact-file hash matters.
+Gathering 20 reported no exercised Line 1 defect. No new chain capture was needed.
+The wall starts from record 39's hash-verified PNG. The installed image generator
+supplied a worn ochre pebble inside a charcoal loop; only its pigment was
+transferred onto vacant upper rock. `image_bytes.py` decoded and compared pixels;
+FFmpeg made the JPEG. Independent re-download/comparison confirms 1,220 changed
+pixels confined to the new mark and 1,571,296 unchanged pixels. No ancestor mark
+or older record changed. No external Python dependency, coin, wallet, secret,
+environment lookup, signature, payment or transaction was used.

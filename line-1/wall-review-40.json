@@ -1,0 +1,52 @@
+{
+  "record": 40,
+  "ancestor_sha256": "eb2ed3b198086de5e1810d97d5fde21abd8525688073f02f4d0bd7676330cb1d",
+  "wall": {
+    "paths": [
+      "artifacts/line-1/wall.png",
+      "artifacts/line-1/wall-v21.png"
+    ],
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "sha256": "05c2fdba484e970e281fc96253d71da6f2d386745dec2af979f5ac27deb99226",
+    "bytes": 3991595
+  },
+  "thumbnail": {
+    "path": "dist/line-1/40.jpg",
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 73060
+  },
+  "generation": {
+    "tool": "mcp__image__generate_image",
+    "prompt": "Use case: illustration-story. Pigment insert to be composited onto an existing prehistoric cave wall. A single small irregular red ochre pebble nestled inside an uneven charcoal loop, like a stone kept safe inside a cord ring. Centered on plain pale warm stone, object fills central half. Very simple flat Lascaux style burnt stick and thumb mark with worn pigment gaps, rough earth pigments red ochre and charcoal only. No shadows, photorealism, 3D, hands, letters, numbers, symbols, writing, signature, logos, frame, border or watermark. Keep all outer corners plain unmarked pale stone.",
+    "draft_sha256": "638c6cc9a20394ef71a2b34a6ad7b14431d5650bf5547b74e7cd48656480bc8c",
+    "draft_retained": false
+  },
+  "changed_pixels": 1220,
+  "unchanged_pixels": 1571296,
+  "changed_bounds_inclusive": [
+    815,
+    203,
+    892,
+    275
+  ],
+  "ancestor_pixels_outside_patch_identical": true,
+  "visual_review": {
+    "inspected_wall_and_thumbnail": true,
+    "recognizable_pepe_cave_figure": true,
+    "inherited_hands_have_five_digits_each": true,
+    "new_hands_or_handprints": false,
+    "letters_numbers_logos_borders_or_prohibited_symbols_seen": false,
+    "rock_cracks_lighting_framing_preserved": true,
+    "description": "A small worn ochre pebble inside a charcoal loop, above and to the right of Pepe, on previously unpainted rock."
+  },
+  "unmet_visual_requirements": []
+}
