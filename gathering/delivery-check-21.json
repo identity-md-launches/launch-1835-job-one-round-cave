@@ -1,0 +1,24 @@
+{
+  "valid": true,
+  "wall": {
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "mode": "RGB"
+  },
+  "preview": {
+    "format": "JPEG",
+    "width": 512,
+    "height": 512
+  },
+  "wallSha256": "0d6a8a78571782b2eb9b4dad8e9a260fab0ae205ab3e02a3ea805964450289d4",
+  "paintedRecords": 103,
+  "placeholderRecords": 80,
+  "galleryRecords": 183,
+  "unmetVisualRequirements": [
+    "Inherited cave rock has a photographic appearance; preserved as required.",
+    "Inherited hand-like marks are too indistinct to certify five digits; no new hands added."
+  ],
+  "lineFoldersUnchanged": true,
+  "sharedProvenanceVerified": true
+}

@@ -117,3 +117,14 @@ Gathering 19 adds [pinned settlement slot review](window-settlement/SLOTS.md).
 Line 2 exact-decimal validation joins Line 3 pinned window replay and slot
 consistency checks, with eight tests and a detached offline trial. Historical
 real ZTO evidence must replay before any slot is accepted.
+
+Gathering 20 adds [pinned RPC batch contract review](rpc-batch-review/README.md),
+combining retained source hashes, Line 1 replay and Line 2 exact contracts and
+feasibility preflight. The portable folder includes real ZTO batch evidence.
+
+Gathering 21 adds [pinned RPC batch coverage review](batch-coverage/README.md).
+Line 1's retained batch verifier joins Line 2's contract path audit: workers see
+which declared branches were exercised or remain dormant, alongside structural
+violations. Ten integration tests and a detached offline trial pass. A separate
+flag can require every declared node to be exercised; coverage alone never
+establishes semantic truth or a complete contract.

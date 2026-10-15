@@ -1,0 +1,44 @@
+{
+  "ancestorSha256": "d9a76ef70e7ee3e50214c67f8cea4ddbeb76c0b6e22f8b5efb462735316b42c9",
+  "wallSha256": "0d6a8a78571782b2eb9b4dad8e9a260fab0ae205ab3e02a3ea805964450289d4",
+  "wallSize": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "generatedDraftSha256": "3735363c44788a9de4c9aa4fe8a86bbee38a21df0b755d38968bb48c51aa9b7f",
+  "generatedDraftRetained": false,
+  "sourceRectangle": [
+    141,
+    221,
+    1685,
+    745
+  ],
+  "additionRectangle": [
+    1000,
+    895,
+    180,
+    60
+  ],
+  "changedPixels": 1153,
+  "unchangedPixels": 1571363,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewSize": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 76698,
+  "newHands": 0,
+  "newHandprints": 0,
+  "imageTool": "mcp__image__generate_image",
+  "prompt": "An isolated small prehistoric cave painting motif on plain pure white background, centered with wide empty white margins: a single handmade irregular curved charcoal twig with four small red and yellow ochre seed pods attached, worn dry earth pigment, uneven burnt-stick strokes. Flat simple primitive mark, roughly horizontal, much wider than tall. No shadows, no photography, no realistic objects, no letters, no numbers, no symbols, no hands, no people, no frog, no frame, no watermark. Only the charcoal twig and four ochre pods.",
+  "reviewStatus": "visually inspected full PNG and decoded JPEG",
+  "unmetVisualRequirements": [
+    "Inherited cave rock has a photographic appearance; preserved as required.",
+    "Inherited hand-like marks are too indistinct to certify five digits; no new hands added."
+  ],
+  "visualFindings": "Recognizable heavy-lidded wide-mouthed Pepe and all ancestral marks remain. Four small worn ochre pods on a charcoal twig added to vacant lower-right rock. No new hands, handprints, writing, logos, frames, real people or prohibited symbols observed. Inherited photographic rock and indistinct ancestral digits are disclosed, not repainted."
+}

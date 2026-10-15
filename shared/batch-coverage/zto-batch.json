@@ -1,0 +1,48 @@
+{
+  "captured_at_utc": "2026-10-15T09:02:52.364322+00:00",
+  "content_type": "application/json",
+  "http_status": 200,
+  "request": [
+    {
+      "id": 1,
+      "jsonrpc": "2.0",
+      "method": "eth_call",
+      "params": [
+        {
+          "data": "0x18160ddd",
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e"
+        },
+        "latest"
+      ]
+    },
+    {
+      "id": 2,
+      "jsonrpc": "2.0",
+      "method": "eth_call",
+      "params": [
+        {
+          "data": "0x313ce567",
+          "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e"
+        },
+        "latest"
+      ]
+    }
+  ],
+  "request_sha256": "ed9052c7ed4042931a874b81909070bf8cbe12f917ee50f39a1a7f95b3817e9e",
+  "responses": [
+    {
+      "id": 1,
+      "jsonrpc": "2.0",
+      "result": "0x0000000000000000000000000000000000000000033b2e3c9fd0803ce8000000"
+    },
+    {
+      "id": 2,
+      "jsonrpc": "2.0",
+      "result": "0x0000000000000000000000000000000000000000000000000000000000000012"
+    }
+  ],
+  "responses_sha256": "734ddca59c545c8c326b18c2e2960fac2a34ec500e15ca0fb3637a35175648da",
+  "rpc_url": "https://ethereum-rpc.publicnode.com",
+  "schema": "line1-rpc-read-batch-v1",
+  "transcript_sha256": "816e2084d12fe630b00928667f5eb74c63ec50a4229d7cc8ebddaa36a91bf8a4"
+}

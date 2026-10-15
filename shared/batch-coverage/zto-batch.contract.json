@@ -1,0 +1,150 @@
+{
+  "type": "object",
+  "required": [
+    "schema",
+    "captured_at_utc",
+    "rpc_url",
+    "http_status",
+    "content_type",
+    "request",
+    "responses",
+    "request_sha256",
+    "responses_sha256",
+    "transcript_sha256"
+  ],
+  "properties": {
+    "schema": {
+      "type": "string",
+      "enum": [
+        "line1-rpc-read-batch-v1"
+      ]
+    },
+    "captured_at_utc": {
+      "type": "string",
+      "minLength": 20
+    },
+    "rpc_url": {
+      "type": "string",
+      "enum": [
+        "https://ethereum-rpc.publicnode.com",
+        "https://eth.drpc.org"
+      ]
+    },
+    "http_status": {
+      "type": "integer",
+      "enum": [
+        200
+      ]
+    },
+    "content_type": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256
+    },
+    "request": {
+      "type": "array",
+      "enum": [
+        [
+          {
+            "id": 1,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x18160ddd",
+                "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e"
+              },
+              "latest"
+            ]
+          },
+          {
+            "id": 2,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x313ce567",
+                "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e"
+              },
+              "latest"
+            ]
+          }
+        ]
+      ]
+    },
+    "responses": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "prefixItems": [
+        {
+          "type": "object",
+          "required": [
+            "id",
+            "jsonrpc",
+            "result"
+          ],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "enum": [
+                1
+              ]
+            },
+            "jsonrpc": {
+              "type": "string",
+              "enum": [
+                "2.0"
+              ]
+            },
+            "result": {
+              "type": "string",
+              "pattern": "^0x[0-9a-f]{64}$"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "id",
+            "jsonrpc",
+            "result"
+          ],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "enum": [
+                2
+              ]
+            },
+            "jsonrpc": {
+              "type": "string",
+              "enum": [
+                "2.0"
+              ]
+            },
+            "result": {
+              "type": "string",
+              "pattern": "^0x[0-9a-f]{64}$"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "request_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "responses_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "transcript_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "line-1/tools/pinned-read-batch/pin_batch.py",
+    "copy": "shared/batch-coverage/vendor/line-1/tools/pinned-read-batch/pin_batch.py",
+    "sha256": "b1a08a650533b566beeaa0bc92a131400f62c440f55a550b1e154b51e56808f5"
+  },
+  {
+    "source": "line-1/tools/rpc-read-batch/read_batch.py",
+    "copy": "shared/batch-coverage/vendor/line-1/tools/rpc-read-batch/read_batch.py",
+    "sha256": "f2474f849ff5f2fca1510719590c5e9e2cded68d3d4db7cf8588aee08bc877dc"
+  },
+  {
+    "source": "line-1/tools/bounded-rpc-snapshot/snapshot.py",
+    "copy": "shared/batch-coverage/vendor/line-1/tools/bounded-rpc-snapshot/snapshot.py",
+    "sha256": "3df4d6ad7fd38e9730fe159ea6185f7c72e6a1d022aa79dd5a864e4226b7b651"
+  },
+  {
+    "source": "line-1/tools/safe-snapshot-files/safe_files.py",
+    "copy": "shared/batch-coverage/vendor/line-1/tools/safe-snapshot-files/safe_files.py",
+    "sha256": "8a465d8df43762067d67c6ba35ecfdf8a572e16f66370ac8596ab65010575272"
+  },
+  {
+    "source": "line-2/tools/contract-path-audit/audit.py",
+    "copy": "shared/batch-coverage/vendor/line-2/tools/contract-path-audit/audit.py",
+    "sha256": "f745b06f556d95bcfb1e8ffc4ac5b0ba88da83d6c3382d7e39ea71662a79f4d0"
+  },
+  {
+    "source": "line-2/tools/contract-path-audit/engine.py",
+    "copy": "shared/batch-coverage/vendor/line-2/tools/contract-path-audit/engine.py",
+    "sha256": "58aadca2f4c75626e115f689e26dd2167a679e966b610d8924595c0723f05cd5"
+  },
+  {
+    "source": "line-1/tools/rpc-read-batch/live-zto-batch.json",
+    "copy": "shared/batch-coverage/zto-batch.json",
+    "sha256": "b369c4f39db608ae240242db924f635a10dfb4e7b543a18113d3b110857c497a"
+  },
+  {
+    "source": "shared/rpc-batch-review/zto-batch.contract.json",
+    "copy": "shared/batch-coverage/zto-batch.contract.json",
+    "sha256": "38219d0c9192f3566be0bf9d650c8de7de0666b562f23f3b6be7bb2d01b3dae1"
+  }
+]

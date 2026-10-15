@@ -1,0 +1,123 @@
+[
+  {
+    "command": [
+      "shared/batch-coverage/test_review.py"
+    ],
+    "workingDirectory": ".",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "stdout": "",
+    "stderr": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.004s\n\nOK\n",
+    "passed": true
+  },
+  {
+    "command": [
+      "shared/batch-coverage/review.py",
+      "shared/batch-coverage/zto-batch.contract.json",
+      "shared/batch-coverage/zto-batch.json",
+      "--contract-sha256",
+      "38219d0c9192f3566be0bf9d650c8de7de0666b562f23f3b6be7bb2d01b3dae1",
+      "--transcript-sha256",
+      "b369c4f39db608ae240242db924f635a10dfb4e7b543a18113d3b110857c497a",
+      "--require-all-exercised"
+    ],
+    "workingDirectory": ".",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "stdout": "{\"accepted\":true,\"complete\":true,\"state\":\"accepted\",\"requireAllExercised\":true,\"allDeclaredNodesExercised\":true,\"requestCount\":2,\"rpcErrorCount\":0,\"coverage\":{\"complete\":true,\"valid\":true,\"counts\":{\"declaredNodes\":19,\"exercised\":19,\"typeRejected\":0,\"dormant\":0,\"violations\":0},\"nodes\":[{\"contractPath\":\"\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/schema\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/schema\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/captured_at_utc\",\"type\":\"string\",\"rules\":[\"minLength\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/captured_at_utc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/rpc_url\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/rpc_url\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/http_status\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/http_status\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/content_type\",\"type\":\"string\",\"rules\":[\"maxLength\",\"minLength\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/content_type\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/request\",\"type\":\"array\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/request\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses\",\"type\":\"array\",\"rules\":[\"maxItems\",\"minItems\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/id\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/id\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/jsonrpc\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/jsonrpc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/result\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/result\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/id\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/id\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/jsonrpc\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/jsonrpc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/result\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/result\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/request_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/request_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/transcript_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/transcript_sha256\"],\"status\":\"exercised\"}],\"errors\":[],\"sources\":{\"contract\":{\"sha256\":\"38219d0c9192f3566be0bf9d650c8de7de0666b562f23f3b6be7bb2d01b3dae1\",\"bytes\":3115},\"document\":{\"sha256\":\"b369c4f39db608ae240242db924f635a10dfb4e7b543a18113d3b110857c497a\",\"bytes\":1268}}},\"limitations\":\"Retained bytes, RPC replay and structural coverage only. Exercised does not mean all rules passed or all values were tested. A valid document may leave optional branches dormant. No provider authentication, current state, freshness, settlement, payment or signing authorization is established.\"}\n",
+    "stderr": "",
+    "passed": true
+  },
+  {
+    "command": [
+      "test_review.py"
+    ],
+    "workingDirectory": "test/scratch/batch-coverage-round21",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "stdout": "",
+    "stderr": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.005s\n\nOK\n",
+    "passed": true
+  },
+  {
+    "command": [
+      "review.py",
+      "zto-batch.contract.json",
+      "zto-batch.json",
+      "--contract-sha256",
+      "38219d0c9192f3566be0bf9d650c8de7de0666b562f23f3b6be7bb2d01b3dae1",
+      "--transcript-sha256",
+      "b369c4f39db608ae240242db924f635a10dfb4e7b543a18113d3b110857c497a",
+      "--require-all-exercised"
+    ],
+    "workingDirectory": "test/scratch/batch-coverage-round21",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "stdout": "{\"accepted\":true,\"complete\":true,\"state\":\"accepted\",\"requireAllExercised\":true,\"allDeclaredNodesExercised\":true,\"requestCount\":2,\"rpcErrorCount\":0,\"coverage\":{\"complete\":true,\"valid\":true,\"counts\":{\"declaredNodes\":19,\"exercised\":19,\"typeRejected\":0,\"dormant\":0,\"violations\":0},\"nodes\":[{\"contractPath\":\"\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/schema\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/schema\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/captured_at_utc\",\"type\":\"string\",\"rules\":[\"minLength\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/captured_at_utc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/rpc_url\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/rpc_url\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/http_status\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/http_status\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/content_type\",\"type\":\"string\",\"rules\":[\"maxLength\",\"minLength\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/content_type\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/request\",\"type\":\"array\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/request\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses\",\"type\":\"array\",\"rules\":[\"maxItems\",\"minItems\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/id\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/id\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/jsonrpc\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/jsonrpc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/result\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/result\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/id\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/id\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/jsonrpc\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/jsonrpc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/result\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/result\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/request_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/request_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/transcript_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/transcript_sha256\"],\"status\":\"exercised\"}],\"errors\":[],\"sources\":{\"contract\":{\"sha256\":\"38219d0c9192f3566be0bf9d650c8de7de0666b562f23f3b6be7bb2d01b3dae1\",\"bytes\":3115},\"document\":{\"sha256\":\"b369c4f39db608ae240242db924f635a10dfb4e7b543a18113d3b110857c497a\",\"bytes\":1268}}},\"limitations\":\"Retained bytes, RPC replay and structural coverage only. Exercised does not mean all rules passed or all values were tested. A valid document may leave optional branches dormant. No provider authentication, current state, freshness, settlement, payment or signing authorization is established.\"}\n",
+    "stderr": "",
+    "passed": true
+  },
+  {
+    "command": [
+      "shared/batch-coverage/review.py",
+      "shared/batch-coverage/zto-batch.contract.json",
+      "gathering/live-zto-batch-21.json",
+      "--contract-sha256",
+      "38219d0c9192f3566be0bf9d650c8de7de0666b562f23f3b6be7bb2d01b3dae1",
+      "--transcript-sha256",
+      "dbeae9bace2b3942e46c8390583466eb7c3d6bd1f3573d97b650eb46f223189b",
+      "--require-all-exercised"
+    ],
+    "workingDirectory": ".",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "stdout": "{\"accepted\":true,\"complete\":true,\"state\":\"accepted\",\"requireAllExercised\":true,\"allDeclaredNodesExercised\":true,\"requestCount\":2,\"rpcErrorCount\":0,\"coverage\":{\"complete\":true,\"valid\":true,\"counts\":{\"declaredNodes\":19,\"exercised\":19,\"typeRejected\":0,\"dormant\":0,\"violations\":0},\"nodes\":[{\"contractPath\":\"\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/schema\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/schema\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/captured_at_utc\",\"type\":\"string\",\"rules\":[\"minLength\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/captured_at_utc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/rpc_url\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/rpc_url\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/http_status\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/http_status\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/content_type\",\"type\":\"string\",\"rules\":[\"maxLength\",\"minLength\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/content_type\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/request\",\"type\":\"array\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/request\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses\",\"type\":\"array\",\"rules\":[\"maxItems\",\"minItems\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/id\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/id\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/jsonrpc\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/jsonrpc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/result\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/result\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/id\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/id\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/jsonrpc\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/jsonrpc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/result\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/result\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/request_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/request_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/transcript_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/transcript_sha256\"],\"status\":\"exercised\"}],\"errors\":[],\"sources\":{\"contract\":{\"sha256\":\"38219d0c9192f3566be0bf9d650c8de7de0666b562f23f3b6be7bb2d01b3dae1\",\"bytes\":3115},\"document\":{\"sha256\":\"dbeae9bace2b3942e46c8390583466eb7c3d6bd1f3573d97b650eb46f223189b\",\"bytes\":1268}}},\"limitations\":\"Retained bytes, RPC replay and structural coverage only. Exercised does not mean all rules passed or all values were tested. A valid document may leave optional branches dormant. No provider authentication, current state, freshness, settlement, payment or signing authorization is established.\"}\n",
+    "stderr": "",
+    "passed": true
+  },
+  {
+    "command": [
+      "shared/batch-coverage/review.py",
+      "shared/batch-coverage/zto-batch.contract.json",
+      "shared/batch-coverage/zto-batch.json",
+      "--contract-sha256",
+      "38219d0c9192f3566be0bf9d650c8de7de0666b562f23f3b6be7bb2d01b3dae1",
+      "--transcript-sha256",
+      "dbeae9bace2b3942e46c8390583466eb7c3d6bd1f3573d97b650eb46f223189b"
+    ],
+    "workingDirectory": ".",
+    "exitCode": 2,
+    "expectedExitCode": 2,
+    "stdout": "{\"accepted\": false, \"complete\": false, \"state\": \"input_error\", \"reason\": \"transcript SHA-256 mismatch\"}\n",
+    "stderr": "",
+    "passed": true
+  },
+  {
+    "command": [
+      "shared/batch-coverage/review.py",
+      "test/scratch/batch-coverage-round21/optional.contract.json",
+      "shared/batch-coverage/zto-batch.json",
+      "--contract-sha256",
+      "67860feeeb28e9864ac1741191a53ccf40b71aa5e1870bc2b9200a13b7d1fc12",
+      "--transcript-sha256",
+      "b369c4f39db608ae240242db924f635a10dfb4e7b543a18113d3b110857c497a",
+      "--require-all-exercised"
+    ],
+    "workingDirectory": ".",
+    "exitCode": 1,
+    "expectedExitCode": 1,
+    "stdout": "{\"accepted\":false,\"complete\":true,\"state\":\"coverage_required\",\"requireAllExercised\":true,\"allDeclaredNodesExercised\":false,\"requestCount\":2,\"rpcErrorCount\":0,\"coverage\":{\"complete\":true,\"valid\":true,\"counts\":{\"declaredNodes\":20,\"exercised\":19,\"typeRejected\":0,\"dormant\":1,\"violations\":0},\"nodes\":[{\"contractPath\":\"\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/schema\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/schema\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/captured_at_utc\",\"type\":\"string\",\"rules\":[\"minLength\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/captured_at_utc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/rpc_url\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/rpc_url\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/http_status\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/http_status\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/content_type\",\"type\":\"string\",\"rules\":[\"maxLength\",\"minLength\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/content_type\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/request\",\"type\":\"array\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/request\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses\",\"type\":\"array\",\"rules\":[\"maxItems\",\"minItems\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/id\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/id\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/jsonrpc\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/jsonrpc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/0/properties/result\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/0/result\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1\",\"type\":\"object\",\"rules\":[\"additionalProperties\",\"required\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/id\",\"type\":\"integer\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/id\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/jsonrpc\",\"type\":\"string\",\"rules\":[\"enum\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/jsonrpc\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses/prefixItems/1/properties/result\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses/1/result\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/request_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/request_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/responses_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/responses_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/transcript_sha256\",\"type\":\"string\",\"rules\":[\"pattern\"],\"visits\":1,\"typePasses\":1,\"sampleDocumentPaths\":[\"/transcript_sha256\"],\"status\":\"exercised\"},{\"contractPath\":\"/properties/reviewNote\",\"type\":\"string\",\"rules\":[],\"visits\":0,\"typePasses\":0,\"sampleDocumentPaths\":[],\"status\":\"dormant\",\"reason\":\"property_absent\"}],\"errors\":[],\"sources\":{\"contract\":{\"sha256\":\"67860feeeb28e9864ac1741191a53ccf40b71aa5e1870bc2b9200a13b7d1fc12\",\"bytes\":1754},\"document\":{\"sha256\":\"b369c4f39db608ae240242db924f635a10dfb4e7b543a18113d3b110857c497a\",\"bytes\":1268}}},\"limitations\":\"Retained bytes, RPC replay and structural coverage only. Exercised does not mean all rules passed or all values were tested. A valid document may leave optional branches dormant. No provider authentication, current state, freshness, settlement, payment or signing authorization is established.\"}\n",
+    "stderr": "",
+    "passed": true
+  },
+  {
+    "trial": "repaired helper on actual finished PNG, no image saved",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "changedPixels": 5938,
+    "diagnostic": "1254x1254 RGB=True changed_pixels=5938",
+    "passed": true
+  }
+]
