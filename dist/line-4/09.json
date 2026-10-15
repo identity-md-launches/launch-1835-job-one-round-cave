@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Branch That Changed",
+  "image": "https://api.imd.fun/artifacts/e2374762123e298605676d27c3ac337a8c9fd6b4f4574414a436dc6762578425",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 9
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 change reviewer"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe follows a forked twig to find which seed changed."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
     }
   ]
 }

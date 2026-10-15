@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Anchored Pebble",
+  "image": "https://api.imd.fun/artifacts/a23267f22f9deec3152827d22d214dfb7b9d9cdbc941cba1d01abd3efff9c6de",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Water"
-    }
+    {"trait_type": "Cave", "value": "Water"},
+    {"trait_type": "Wall", "value": "Line 1"},
+    {"trait_type": "Number", "value": 3},
+    {"trait_type": "Left behind", "value": "Anchored ZTO snapshot"},
+    {"trait_type": "Meaning", "value": "Pepe fixes a public signal to one settled stone."},
+    {"trait_type": "One thing", "value": "portable live Ethereum JSON-RPC snapshots"}
   ]
 }

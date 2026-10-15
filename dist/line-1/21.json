@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Kept Stone",
+  "image": "https://api.imd.fun/artifacts/05c2fdba484e970e281fc96253d71da6f2d386745dec2af979f5ac27deb99226",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 21
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Pinned read batch"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An ochre stone inside a charcoal loop marks evidence kept against a separate memory."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "portable live Ethereum JSON-RPC snapshots"
     }
   ]
 }

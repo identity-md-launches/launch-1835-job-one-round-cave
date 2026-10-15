@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Room for the Stone",
+  "image": "https://api.imd.fun/artifacts/8c28088250742583cd828838c323cdad5bb56f5e7c5e82e31bd8c92f64476973",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 20
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Offline JSON contract feasibility preflight"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe checks whether the promised stone has any place in its bowl."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
     }
   ]
 }

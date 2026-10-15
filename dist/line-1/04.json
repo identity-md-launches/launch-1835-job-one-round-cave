@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Woven Evidence",
+  "image": "https://api.imd.fun/artifacts/d6175e43ca60c09532cc5614d441a1c3d4eaf838c9d491f81bcedfba017646b3",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 4
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Safe snapshot files"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe weaves a boundary that keeps public evidence safely contained."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "portable live Ethereum JSON-RPC snapshots"
     }
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Three River Stones",
+  "image": "https://api.imd.fun/artifacts/4f3a96b34323a5d19cae938b63c61198e062b81e27ec18405ca9971fae003ab6",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Water"
-    }
+    {"trait_type": "Cave", "value": "Water"},
+    {"trait_type": "Wall", "value": "Line 1"},
+    {"trait_type": "Number", "value": 8},
+    {"trait_type": "Left behind", "value": "ZTO snapshot revisit"},
+    {"trait_type": "Meaning", "value": "Pepe revisits a saved ZTO block and carries the later public readings beside the first."},
+    {"trait_type": "One thing", "value": "portable live Ethereum JSON-RPC snapshots"}
   ]
 }

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Two Shadows Together",
+  "image": "https://api.imd.fun/artifacts/68212d94ada928b0972359d7ab8da0cf98064590fa3ae758eefdf2259196b973",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 8
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "paired-freshness"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two sunlit stones join their shadows while Pepe checks that both witnesses are still timely."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "verify Ethereum transaction settlement"
     }
   ]
 }

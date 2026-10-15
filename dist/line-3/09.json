@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Two Tracks Return",
+  "image": "https://api.imd.fun/artifacts/f5a6dde219059ae9e85c6cd63624dc315410bffa752f97a7bf0b351ad6f31af5",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 9
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "paired-recheck"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two worn tracks return to the same stone while Pepe checks that both witnesses still tell the same story."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "verify Ethereum transaction settlement"
     }
   ]
 }

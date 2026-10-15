@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Chosen Stone",
+  "image": "https://api.imd.fun/artifacts/17ca259cb868bf342098cedc6e00cdf429bc6e835f9c24dee0343afb9dfe6fe4",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Water"
-    }
+    {"trait_type": "Cave", "value": "Water"},
+    {"trait_type": "Wall", "value": "Line 3"},
+    {"trait_type": "Number", "value": 11},
+    {"trait_type": "Left behind", "value": "tx-position"},
+    {"trait_type": "Meaning", "value": "Pepe finds one stone in its rightful place and checks the path around it."},
+    {"trait_type": "One thing", "value": "verify Ethereum transaction settlement"}
   ]
 }

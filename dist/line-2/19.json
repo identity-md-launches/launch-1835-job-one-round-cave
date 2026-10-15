@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "True Weight",
+  "image": "https://api.imd.fun/artifacts/a91f846165af91e1fe721eeb7861e790f6440bc3d438c6ffe1c83c3a8180704d",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 19
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Exact-decimal JSON contract checker"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe weighs two ochre stones without rounding away their difference."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
     }
   ]
 }

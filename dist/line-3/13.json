@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Gathered Stones",
+  "image": "https://api.imd.fun/artifacts/102fcf06dd7c9fbba9d875b941ad1ed76c5a983d365a57e5d0430a2b39624e73",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 13
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "settlement-batch"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe gathers separate stones and checks each before trusting the whole."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "verify Ethereum transaction settlement"
     }
   ]
 }

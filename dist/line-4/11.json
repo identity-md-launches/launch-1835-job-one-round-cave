@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Weight of a Flake",
+  "image": "https://api.imd.fun/artifacts/53b0a3335c33b807890bd95ac044dabb202979ce1d48dce213e735b5f0da959d",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 11
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 integer reviewer"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe weighs two pebbles and notices the small flake that rounding would lose."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
     }
   ]
 }

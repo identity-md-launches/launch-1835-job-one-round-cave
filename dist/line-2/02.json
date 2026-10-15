@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Pebble Inspector",
+  "image": "https://api.imd.fun/artifacts/6f0bd737dc1830887acc4b208346c421baa2895436dd6ed9dfceade6bcc28d74",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 2
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Ordered deliverable checker"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe checks each distinct pebble in its place before passing the trail onward."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
     }
   ]
 }

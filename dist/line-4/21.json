@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Address Stone",
+  "image": "https://api.imd.fun/artifacts/d4a00759b345558f158322879a5856b47cedd3466735c78e6f2234092d908feb",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 21
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 address reviewer"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An ochre pebble inside a worn ring marks checking the exact address behind a request."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
     }
   ]
 }

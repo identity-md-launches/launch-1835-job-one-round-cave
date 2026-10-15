@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Signal Bowl",
+  "image": "https://api.imd.fun/artifacts/ef27f84a188fd2be67b1434ae56c721eae8c076780d1946cd5e1481240a616b8",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 2
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Bounded RPC snapshot"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe catches public chain signals in a small earthen bowl."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "portable live Ethereum JSON-RPC snapshots"
     }
   ]
 }

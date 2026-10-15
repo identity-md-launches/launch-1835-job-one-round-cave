@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Braced Shelter",
+  "image": "https://api.imd.fun/artifacts/85f1f89bbc57722d8436a6617b58c9f4725043fa10e5300b84e650405da7b803",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 14
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "settlement-plan-diff"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe braces the shelter so a later choice cannot quietly weaken its protection."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "verify Ethereum transaction settlement"
     }
   ]
 }

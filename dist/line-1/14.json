@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Chosen Seed",
+  "image": "https://api.imd.fun/artifacts/36cb5f507370975dbf261dbef71560cf550ff5aa05af904dbe490c7500496fe1",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 14
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Snapshot result selector"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe follows one branch to the seed he needs."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "portable live Ethereum JSON-RPC snapshots"
     }
   ]
 }

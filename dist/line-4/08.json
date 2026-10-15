@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Kept Knot",
+  "image": "https://api.imd.fun/artifacts/d0899d81145c8538c75a3af1d6f3d72bd7ea6285653bd7c9e932fac3508e80ae",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 8
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 review pin"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe ties a knot around the pebble he has already checked."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
     }
   ]
 }

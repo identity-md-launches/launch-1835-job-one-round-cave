@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Kept Stone",
+  "image": "https://api.imd.fun/artifacts/3767f4c32073fc2fab037ae1ea75fba9b040e518b4e70eeac56742654e359b0f",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 11
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Retained snapshot pin"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A bound ochre stone beside Pepe remembers the separate reference that detects a replaced observation."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "portable live Ethereum JSON-RPC snapshots"
     }
   ]
 }

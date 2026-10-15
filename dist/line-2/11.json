@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Paired Witnesses",
+  "image": "https://api.imd.fun/artifacts/5d94d7b0d39d4e48ec99502b45b4935af33b11f2db8f31e570ee5814105ba63e",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 11
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "JSON batch report guard"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe compares every remembered pebble with its source before trusting the group."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
     }
   ]
 }

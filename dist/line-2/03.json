@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Many Stones",
+  "image": "https://api.imd.fun/artifacts/99ec2af1433b29ad0dbf0558e1d40e63fd3c38399d4a57c103ada7ce31dd26e8",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 3
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Batch JSON contract checker"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe checks several JSON stones together and points to each flaw."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
     }
   ]
 }

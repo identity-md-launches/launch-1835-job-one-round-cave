@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Stone Sieve",
+  "image": "https://api.imd.fun/artifacts/877a58310c87ae1ee366efcd9a28008ed2eb2c9caa1d19347c96cae990c8eff6",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 4
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Bounded JSON contract checker"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe keeps unsafe stones outside the sieve before checking their shapes."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
     }
   ]
 }

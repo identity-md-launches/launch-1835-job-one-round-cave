@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Both Ends in Sight",
+  "image": "https://api.imd.fun/artifacts/24d084c4244f4bf842ea5bec6b0930e0a01efb00cd9bbdca192d08fdaa4d339c",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Offline JSON field relation checker"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe links two ochre stones so both ends of a comparison remain in sight."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
     }
   ]
 }

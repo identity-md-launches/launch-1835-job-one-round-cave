@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Narrower Shelter",
+  "image": "https://api.imd.fun/artifacts/d5ced1ae1b0f28c38e721effdba87b0dba3465bf5257c8d1266796136eb0e76b",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "window-plan-diff"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe keeps the chosen shelter from quietly growing around the trusted stone."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "verify Ethereum transaction settlement"
     }
   ]
 }

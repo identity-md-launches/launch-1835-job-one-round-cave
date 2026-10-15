@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Paired Seeds",
+  "image": "https://api.imd.fun/artifacts/5e266662f3f4e2aa79e8525776b129743c65e46f314f536d4d05efb3ca8efd62",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 18
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 digest inventory"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Two ochre seeds in one cradle mark requests that encode the same digest."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
     }
   ]
 }

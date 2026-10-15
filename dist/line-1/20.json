@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Joined Echoes",
+  "image": "https://api.imd.fun/artifacts/eb2ed3b198086de5e1810d97d5fde21abd8525688073f02f4d0bd7676330cb1d",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 20
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "RPC read batch"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "A small ochre bundle marks two live ZTO reads carried together for offline replay."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "portable live Ethereum JSON-RPC snapshots"
     }
   ]
 }

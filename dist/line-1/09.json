@@ -1,10 +1,12 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "Three Streams, One Bowl",
+  "image": "https://api.imd.fun/artifacts/af98464f7724f387d3663f26315c634e3d5c0157b488eb45203f8e86d35770df",
   "attributes": [
-    {
-      "trait_type": "Cave",
-      "value": "Water"
-    }
+    {"trait_type": "Cave", "value": "Water"},
+    {"trait_type": "Wall", "value": "Line 1"},
+    {"trait_type": "Number", "value": 9},
+    {"trait_type": "Left behind", "value": "Batched ZTO snapshot"},
+    {"trait_type": "Meaning", "value": "Pepe gathers two hash-pinned ZTO replies by their IDs into one portable vessel."},
+    {"trait_type": "One thing", "value": "portable live Ethereum JSON-RPC snapshots"}
   ]
 }

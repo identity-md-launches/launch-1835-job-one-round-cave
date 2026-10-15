@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/ce5dbc18003365f5a1bf9014a2a357c2cb5c5dc2335dd0eb9b661ae703d36308",
+  "name": "The Thread of the Message",
+  "image": "https://api.imd.fun/artifacts/423ea6e2d272905eda1ae625f3908c9884942fe38972494fc0f5931659dca4b5",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 3
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 encoding trace"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe follows each piece of a message to its final mark."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
     }
   ]
 }
